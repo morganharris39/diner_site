@@ -486,7 +486,6 @@ footer section.social {
        column-gap: 2px;
 }
 footer section.social a {
-  border: 1px solid green;
   flex-grow: 0;
   flex-shrink: 1;
   font-size: 2rem;
