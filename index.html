@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Navigation Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+<!-- Favicon -->  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/logo-1x.png" alt="logo" width="50" height="50" srcset="images/logo-1x.png 1x, images/logo-2x.png 2x, images/logo-3x.png 3x">
+		<span class="knewave-regular">The Groovy Griddle</span>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <button id="navButton"></button>
+        <ul class="menuLinks">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Menu</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <h1 class="knewave-regular">Our Menu</h1>
+        <div class="allCards">
+            <section>
+                <h2 class="knewave-regular">Pasta</h2>
+                <img src="images/pasta-card-image.webp" alt="penne pasta in a bowl" width="300" height="175">
+                <p>Our delighful pasta dishes are perfect for any occasion. Our al dente pasta is tossed in a rich, flavorful sauce, bursting with aromatic herbs and spices. It's a comforting, hearty meal that will satisfy even the most discerning palates. Whether you're enjoying a cozy night in or entertaining guests, our pasta is sure to impress.</p>
+                <a href="#">Order Pastas</a>
+            </section>
+            <section>
+                <h2 class="knewave-regular">Pizza</h2>
+                <img src="images/pizza-card-image.webp" alt="pizza with a slice cut out" width="300" height="175" class="e2e">
+                <p>Experience the perfect balance of crispy crust, tangy sauce, and gooey cheese in every bite of our pizzas. Topped with fresh ingredients and baked to perfection, it's a culinary masterpiece that will transport your taste buds to Italy. Whether you prefer classic margherita or adventurous toppings, this pizza delivers an unforgettable flavor experience.</p>
+                <a href="#">Order Pizzas</a>
+            </section>
+            <section>
+                <h2 class="knewave-regular">Salad</h2>
+                <img src="images/salad-card-image.webp" alt="salad with cheese, beets, and mangos" width="300" height="175">
+                <p>Our vibrant salads feature a mix of fresh ingredients, which makes it a feast for the eyes and a delight for the taste buds. Crisp greens are complemented by sweet, fresh fruit, hearty vegetables, and tangy cheese crumbles. Finished with a light, zesty dressing, it's the perfect side dish or a refreshing meal on its own.</p>
+                <a href="#">Order Salads</a>
+            </section>
+            <section>
+                <h2 class="knewave-regular">Sandwich</h2>
+                <img src="images/sandwich-card-image.webp" alt="long sandwich with spinach and cheese" width="300" height="175" class="e2e">
+                <p>Enjoy a delicious sandwich stacked high with fresh and flavorful ingredients. The combination of textures and tastes, from the crunch of the fresh vegetables to the smooth, rich cheese, makes every bite a new experience. Perfect for lunch, a quick dinner, or even a picnic, our sandwiches is both satisfying and convenient.</p>
+                <a href="#">Order Sandwiches</a>
+            </section>
+            <section>
+                <h2 class="knewave-regular">Soup</h2>
+                <img src="images/soup-card-image.webp" alt="pumpkin soup in a bowl" width="300" height="175">
+                <p>Warm up with a comforting bowl of soup, perfect for chilly days and cozy nights. Our creamy, velvety soups are infused with a natural sweetness and a blend of spices that add depth and warmth. They're nourishing, hearty meals that can be enjoyed on its own or with a side of crusty bread for dipping.</p>
+                <a href="#">Order Soups</a>
+            </section>
+        </div>
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <div>
+            <section class="contact">
+                <p><ion-icon name="person-circle-outline"></ion-icon>Jane Doe</p>
+                <p><ion-icon name="home-outline"></ion-icon>GROOVY GRIDDLE, LLC</p>
+                <p><a href="mailto:tim@cern.com"><ion-icon name="mail-outline"></ion-icon>tim@cern.com</a></p>
+                <p><a href="https://thegroovygriddle.com"><ion-icon name="globe-outline"></ion-icon>thegroovygriddle.com</a></p>
+                <p><a href="tel:43123455486"><ion-icon name="call-outline"></ion-icon>43 12 345 54 86</a></p>
+            </section>
+            <section class="social">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></ion-icon></a>
+            </section>
+            <section class="location">
+                <address>
+                    123 Retro Lane
+                    <br>
+                    Salt Lake City
+                    <br>
+                    Utah
+                </address>
+            </section>
+        </div>
+        <p class="legal">&copy; <span id="year">x</span> &bull; Morgan Harris</p>
+    </footer>
+</div> <!-- end footer wrapper -->
+<script src="js/scripts.js"></script>   
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 

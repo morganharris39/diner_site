@@ -1,0 +1,44 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+#navButton {
+    display: none;
+}
+
+ul.menuLinks li a {
+    padding: 0.6rem 1rem;
+}
+
+ul.menuLinks li.active a {
+    border-radius: 10px;
+}
+
+ul.menuLinks, ul.menuLinks.open {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.menuLinks a:hover {
+    color: $accentColor;
+}
+
+/* MAIN */
+
+div.allCards {
+    section {
+        flex-basis: calc(33.33333% - (($gutter * 2) / 3));
+    }
+}
+
+/* FOOTER HERE */
+
+footer div {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    max-width: 960px;
+    margin: 0 auto;
+}
